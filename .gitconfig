@@ -1,0 +1,12 @@
+[commit]
+	gpgsign = true
+
+[color]
+	ui = auto
+
+[alias]
+	st = status
+	co = checkout
+	lp = log -p
+	p = push
+	c = commit -S -m

@@ -1,0 +1,417 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/lockna/
+	..
+1573553644
+'b
+	/home/lockna/bin/
+	..
+1573553644
+'h
+	/home/lockna/
+	..
+1573553644
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/lockna/Coding/C/Kernel
+	isodir
+1
+d/home/lockna/Coding/C/Kernel/isodir
+	..
+0
+d/home/lockna/Coding/C/Kernel
+	run.sh
+10
+d/home/lockna/Coding/C
+	Kernelmodules
+3
+d/home/lockna/Coding/C/Kernelmodules
+	example
+1
+d/home/lockna/Coding/C/Kernelmodules/example
+	hello.c
+3
+d/home/lockna/Coding/C/Kernelmodules
+	ldd3
+2
+d/home/lockna/Coding/C/Kernelmodules/ldd3
+	..
+0
+d/home/lockna/Coding/C/Kernelmodules
+	ldd3
+2
+d/home/lockna/Coding/C
+	ProgrammersHideout
+4
+d/home/lockna/Coding/C/ProgrammersHideout
+	hello.o
+6
+d/home/lockna/Coding/C
+	ProgrammersHideout
+4
+d/home/lockna/Coding
+	C
+2
+d/home/lockna
+	Coding
+2
+d/home/lockna/Coding
+	Rust
+3
+d/home/lockna/Coding/Rust
+	..
+0
+d/home/lockna/Coding
+	Rust
+3
+d/home/lockna/Coding/Rust
+	Volve
+1
+d/home/lockna/Coding/Rust/Volve
+	src
+1
+d/home/lockna/Coding/Rust/Volve/src
+	code.rs
+1
+d/home/lockna/Coding/Rust/Volve
+	src
+1
+d/home/lockna/Coding/Rust
+	Volve
+1
+d/home/lockna/Coding
+	Scala
+4
+d/home/lockna/Coding/Scala
+	..
+0
+d/home/lockna/Coding
+	asm
+5
+d/home/lockna/Coding/asm
+	Intel
+2
+d/home/lockna/Coding/asm/Intel
+	test.c
+11
+d/home/lockna/Coding/asm
+	Intel
+2
+d/home/lockna/Coding
+	asm
+5
+d/home/lockna
+	Downloads
+4
+d/home/lockna/Downloads
+	vifmrun
+29
+d/home/lockna
+	PDF
+14
+d/home/lockna/PDF
+	ELF_Format.pdf
+10
+d/home/lockna
+	Music
+13
+d/home/lockna/Music
+	Dame - Auf die guten alten Zeiten.webm
+6
+d/home/lockna
+	Morpheus Patreon Videos
+12
+d/home/lockna/Morpheus Patreon Videos
+	GitHub
+4
+d/home/lockna
+	Morpheus Patreon Videos
+12
+d/home/lockna/Morpheus Patreon Videos
+	Assembly
+1
+d/home/lockna
+	JAWS
+10
+d/home/lockna/JAWS
+	..
+0
+d/home/lockna
+	GhidraProjects
+8
+d/home/lockna/GhidraProjects
+	..
+0
+d/home/lockna
+	Coding
+2
+d/home/lockna/Coding
+	C
+2
+d/home/lockna/Coding/C
+	Experimental
+1
+d/home/lockna/Coding/C/Experimental
+	test.c
+7
+d/home/lockna/Coding/C
+	Experimental
+1
+d/home/lockna/Coding
+	C
+2
+d/home/lockna
+	Coding
+2
+d/home/lockna/Coding
+	Bash
+1
+d/home/lockna/Coding/Bash
+	Scripts
+1
+d/home/lockna/Coding
+	Rust
+3
+d/home/lockna/Coding/Rust
+	Volve
+1
+d/home/lockna/Coding
+	Scala
+4
+d/home/lockna/Coding/Scala
+	..
+0
+d/home/lockna/Coding
+	asm
+5
+d/home/lockna/Coding/asm
+	Intel
+2
+d/home/lockna/Coding/asm/Intel
+	dllencryptor
+2
+d/home/lockna/Coding/asm
+	Intel
+2
+d/home/lockna/Coding
+	asm
+5
+d/home/lockna
+	SD
+15
+d/home/lockna/SD
+	'Echt' Böhmisch - Katharinen Polka-vf9dCa_ZzbI.webm
+1
+d/home/lockna
+	SD
+15
+d/home/lockna/SD
+	..
+0
+d/home/lockna
+	repos
+21
+d/home/lockna/repos
+	faucon
+4
+d/home/lockna/repos/faucon
+	faucon-emu
+3
+d/home/lockna/repos/faucon/faucon-emu
+	src
+1
+d/home/lockna/repos/faucon/faucon-emu/src
+	dma
+2
+d/home/lockna/repos/faucon/faucon-emu
+	src
+1
+d/home/lockna/repos/faucon/faucon-emu/src
+	cpu
+1
+d/home/lockna/repos/faucon/faucon-emu/src/cpu
+	instructions
+1
+d/home/lockna/repos/faucon/faucon-emu/src/cpu/instructions
+	mod.rs
+6
+d/home/lockna/repos/faucon/faucon-emu/src/cpu
+	instructions
+1
+d/home/lockna/repos/faucon/faucon-emu/src/cpu/instructions
+	alu.rs
+1
+d/home/lockna/repos/faucon/faucon-emu/src/cpu
+	instructions
+1
+d/home/lockna/repos/faucon/faucon-emu/src
+	cpu
+1
+d/home/lockna/repos/faucon/faucon-emu
+	src
+1
+d/home/lockna/repos/faucon
+	faucon-emu
+3
+d/home/lockna/repos
+	faucon
+4
+d/home/lockna/repos/faucon
+	faucon.bin
+12
+d/home/lockna/repos
+	faucon
+4
+d/home/lockna/repos/faucon
+	faucon-asm
+1
+d/home/lockna/repos/faucon/faucon-asm
+	..
+0
+d/home/lockna/repos/faucon
+	faucon-asm
+1
+d/home/lockna/repos
+	faucon
+4
+d/home/lockna
+	ghidra_scripts
+20
+d/home/lockna/ghidra_scripts
+	..
+0
+d/home/lockna
+	repos
+14
+d/home/lockna/repos
+	wallpapers
+17
+d/home/lockna/repos/wallpapers
+	0009.jpg
+9
+d/home/lockna/repos
+	wallpapers
+17
+d/home/lockna
+	repos
+14
+d/home
+	lockna
+1
+d/
+	home
+4
+d/home
+	lockna
+1
+d/home/lockna
+	ghidra_scripts
+13
+d/home/lockna/ghidra_scripts
+	..
+0
+d/home/lockna
+	ghidra_scripts
+12
+d
+
+# Right window history (oldest to newest):
+D/home
+	lockna
+1
+D/
+	home
+4
+D/home
+	lockna
+1
+D/home/lockna/CLionProjects
+	..
+0
+D/home/lockna/CLionProjects/hawk
+	src
+2
+D/home/lockna/CLionProjects/hawk/src
+	include
+4
+D/home/lockna/CLionProjects/hawk/src/include
+	..
+0
+D/home/lockna/CLionProjects/hawk/src
+	lexer
+5
+D/home/lockna/CLionProjects/hawk/src/lexer
+	lexer.c
+1
+D/home/lockna
+	CLionProjects
+1
+D/home
+	lockna
+1
+D/
+	home
+4
+D
+
+# Command line history (oldest to newest):
+:help
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/lockna/.local/share/vifm/Trash/000_2020-03-30-173935_2490x1335_scrot.png
+""/home/lockna/.local/share/vifm/Trash/000_2020-03-30-173935_2490x1335_scrot_000.png
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-26-220512_2490x1335_scrot.png
+	/home/lockna/2020-03-26-220512_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-26-220514_2490x1335_scrot.png
+	/home/lockna/2020-03-26-220514_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-26-205437_2490x1335_scrot.png
+	/home/lockna/2020-03-26-205437_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-26-215951_1230x1335_scrot.png
+	/home/lockna/2020-03-26-215951_1230x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_os-dev(1).pdf
+	/home/lockna/PDF/os-dev(1).pdf
+t/home/lockna/.local/share/vifm/Trash/000_kernel_patch_tutorial(1).pdf
+	/home/lockna/PDF/kernel_patch_tutorial(1).pdf
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-30-174019_2490x1335_scrot.png
+	/home/lockna/2020-03-30-174019_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-30-174119_2490x1335_scrot.png
+	/home/lockna/2020-03-30-174119_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-30-173935_2490x1335_scrot.png
+	/home/lockna/2020-03-30-173935_2490x1335_scrot.png
+t/home/lockna/.local/share/vifm/Trash/000_2020-03-30-173935_2490x1335_scrot_000.png
+	/home/lockna/2020-03-30-173935_2490x1335_scrot_000.png
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
