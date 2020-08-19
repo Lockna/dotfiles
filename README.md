@@ -1,40 +1,36 @@
 # dotfiles
-
 Dotfiles are those files and directories found in Unix-based operating systems encharged of saving customization settings of user applications.
-
 These are my personal dotfiles to keep them archived in case I screw up my system switch computers and need to get things settled quickly.
 ## Software
-#### Distro
-[Duck Duck Go](https://duckduckgo.com)
+
+### Distro
 [Arch Linux](https://www.archlinux.org)
-#### Shell
 
-    [Alacritty](https://github.com/alacritty/alacritty)
+### Shell
 
-    [zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+[Alacritty](https://github.com/alacritty/alacritty)
 
-    [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-    [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
+[zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-#### Window Manager
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-    [i3-gaps](https://github.com/Airblader/i3)
+[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
+    
+### Window Manager
+[i3-gaps](https://github.com/Airblader/i3)
 
-    compton/picom
+compton/picom
 
-    [rofi](https://github.com/davatorium/rofi)
+[rofi](https://github.com/davatorium/rofi)
 
-    [feh](https://github.com/derf/feh)
+[feh](https://github.com/derf/feh)
 
-    fontconfig
+fontconfig
 
-#### Other
+### Other
+nvim
 
-    nvim
-
-Installation
-
-    Clone this into your (empty) home directory on a fresh install
-
-    Pick the ones you like
+### Installation
+Clone this into your (empty) home directory on a fresh install
+Pick the ones you like
