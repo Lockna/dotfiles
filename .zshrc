@@ -14,6 +14,9 @@ alias ytd='youtube-dl'
 alias ytdl='ytd --add-metadata -ic -f best'
 alias yta='ytdl -x -f bestaudio/best'
 
+export ZSH="/home/lockna/.oh-my-zsh"
+export PATH=$HOME/.local/bin:~/.npm-global/bin:$PATH:/opt/depot_tools
+
 # Set the name of the theme to load.
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
