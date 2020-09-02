@@ -4,32 +4,32 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 ## Software
 
 ### Distro
-[Arch Linux](https://www.archlinux.org)
+- [Arch Linux](https://www.archlinux.org)
 
 ### Shell
 
-[Alacritty](https://github.com/alacritty/alacritty)
+- [Alacritty](https://github.com/alacritty/alacritty)
 
 
-[zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-[Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
     
 ### Window Manager
-[i3-gaps](https://github.com/Airblader/i3)
+- [i3-gaps](https://github.com/Airblader/i3)
 
-compton/picom
+- compton/picom
 
-[rofi](https://github.com/davatorium/rofi)
+- [rofi](https://github.com/davatorium/rofi)
 
-[feh](https://github.com/derf/feh)
+- [feh](https://github.com/derf/feh)
 
-fontconfig
+- fontconfig
 
 ### Other
-nvim
+- nvim
 
 ### Installation
 Clone this into your (empty) home directory on a fresh install
