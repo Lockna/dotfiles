@@ -4,32 +4,17 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 ## Software
 
 ### Distro
-- [Arch Linux](https://www.archlinux.org)
+- [macOS Ventura](https://www.apple.com/at/macos/ventura/)
 
 ### Shell
-
-- [Alacritty](https://github.com/alacritty/alacritty)
-
-
 - [zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
-    
-### Window Manager
-- [i3-gaps](https://github.com/Airblader/i3)
-
-- compton/picom
-
-- [rofi](https://github.com/davatorium/rofi)
-
-- [feh](https://github.com/derf/feh)
-
-- fontconfig
 
 ### Other
-- nvim
+- VSCode
 
 ### Installation
 Clone this into your (empty) home directory on a fresh install
