@@ -1,0 +1,13 @@
+configuration {
+  display-run: "╰❯ ";
+  display-drun: " ";
+  display-window: " ";
+  modes: "drun";
+  font: "Hack Nerd Font 12";
+  drun {
+    display-format:  "{name} -columns 3";
+  }
+  border: 0;
+}
+
+@theme "~/.config/rofi/mytheme.rasi"
