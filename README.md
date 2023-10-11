@@ -4,7 +4,7 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 ## Software
 
 ### Distro
-- [macOS Ventura](https://www.apple.com/at/macos/ventura/)
+- [FreeBSD](https://www.freebsd.org/)
 
 ### Shell
 - [zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -12,6 +12,23 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), I use Hack
+
+- [Alacritty](https://github.com/alacritty/alacritty)
+
+
+#### Window Manager
+
+* [i3](https://i3wm.org/)
+
+* [polybar](https://github.com/polybar/polybar)
+
+* [dunst](https://github.com/dunst-project/dunst)
+
+* [compton/picom](https://github.com/yshui/picom)
+
+* [rofi](https://github.com/DaveDavenport/rofi)
+
+* [feh](https://github.com/derf/feh)
 
 ### Other
 - VSCode
