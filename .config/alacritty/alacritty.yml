@@ -1,0 +1,135 @@
+# Configuration file for Alacritty, the GPU-enhanced terminal emulator.
+
+# Environment configuration.
+env:
+  TERM: xterm-256color
+
+# Window configuration.
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+
+  padding:
+    x: 1
+    y: 1
+
+  dynamic_padding: false
+
+  decorations: full
+
+# Scrolling configuration.
+scrolling:
+  history: 100000
+
+  multiplier: 1
+
+# Font configuration.
+font:
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+
+  size: 11.5
+
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+
+draw_bold_text_with_bright_colors: true
+
+# Debugging settings.
+debug.render_time: false
+debug.persistent_logging: false
+
+# Colors configuration.
+colors:
+  primary:
+    background: '0x272833'
+    foreground: '0xF0F0E6'
+
+  normal:
+    black:   '0x1D1F21'
+    red:     '0xD92057'
+    green:   '0x3AA842'
+    yellow:  '0xCCA828'
+    blue:    '0x366AC3'
+    magenta: '0x9843B0'
+    cyan:    '0x2AC3DE'
+    white:   '0x707880'
+
+  bright:
+    black:   '0x373B41'
+    red:     '0xF7768E'
+    green:   '0x9ECE6A'
+    yellow:  '0xFFDA73'
+    blue:    '0x7AA2F7'
+    magenta: '0xFB85FF'
+    cyan:    '0x7DCFFF'
+    white:   '0xC5C8C6'
+
+indexed_colors: []
+
+# Visual Bell configuration.
+bell:
+  animation: EaseOutExpo
+  duration: 0
+
+# Background opacity: Opaque.
+window.opacity: 1.0
+
+# Mouse configuration.
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  faux_scrolling_lines: 1
+
+  hide_when_typing: false
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  save_to_clipboard: true
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+window.dynamic_title: true
+
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: true
+
+live_config_reload: true
+
+# Shell configuration.
+shell:
+  program: /usr/local/bin/zsh
+
+# Key bindings.
+key_bindings:
+  - { key: PageUp,    mods: Shift,    action: ScrollPageUp,     mode: ~Alt }
+  - { key: PageDown,  mods: Shift,    action: ScrollPageDown,   mode: ~Alt }
+  - { key: Home,      mods: Shift,    action: ScrollToTop,      mode: ~Alt }
+  - { key: End,       mods: Shift,    action: ScrollToBottom,   mode: ~Alt }
+  - { key: Copy,                      action: Copy                         }
+  - { key: Paste,                     action: Paste                        }
+  - { key: Equals,    mods: Control,  action: IncreaseFontSize             }
+  - { key: Minus,     mods: Control,  action: DecreaseFontSize              }
+  - { key: Key0,      mods: Control,  action: ResetFontSize                }
