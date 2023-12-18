@@ -31,7 +31,7 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 * [feh](https://github.com/derf/feh)
 
 ### Other
-- VSCode
+- [LunarVim](https://www.lunarvim.org/)
 
 ### Installation
 Clone this into your (empty) home directory on a fresh install
