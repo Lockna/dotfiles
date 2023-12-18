@@ -11,7 +11,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec st
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -184,7 +184,7 @@ exec_always --no-startup-id timedatectl
 # Set Monitors
 # exec_always --no-startup-id xrandr --output HDMI2 --auto --output eDP1 --auto --left-of HDMI2
 # exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --output HDMI-0 --auto --left-of DP-0
-exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --primary --output HDMI-0 -r 60 --left-of DP-0
+exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --output DP-2 --mode 2560x1440 --primary -r 170 --right-of DP-0
 
 # Compositor
 exec_always --no-startup-id picom -bcf
