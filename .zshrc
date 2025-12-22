@@ -6,6 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export "PATH=$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
+export "PATH=$HOME/.local/bin:$PATH"
 
 # ZSH configuration file.
 
@@ -17,7 +18,6 @@ alias lt='ls --tree'
 alias cat='bat'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
-alias lvim='~/.local/bin/lvim'
 
 alias ytd='youtube-dl'
 alias ytdl='ytd --add-metadata -ic -f best'
