@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/lockna/.config/wallpaper.jpg' '/home/lockna/.config/.wallpaper.png' 

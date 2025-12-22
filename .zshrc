@@ -17,6 +17,7 @@ alias lt='ls --tree'
 alias cat='bat'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
+alias lvim='~/.local/bin/lvim'
 
 alias ytd='youtube-dl'
 alias ytdl='ytd --add-metadata -ic -f best'
@@ -105,6 +106,7 @@ plugins=(
   gpg-agent
   safe-paste
   virtualenv
+  ssh-agent
 )
 
 setopt HIST_IGNORE_SPACE

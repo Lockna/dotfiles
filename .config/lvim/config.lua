@@ -5,3 +5,27 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
 
+
+lvim.plugins = {
+
+  { "catppuccin/nvim", name = "catppuccin" },
+  { "projekt0n/github-nvim-theme" },
+  { "folke/tokyonight.nvim" },
+  { "EdenEast/nightfox.nvim" },
+
+}
+
+lvim.colorscheme = 'catppuccin-mocha'
+
+lvim.format_on_save.enabled = true
+
+lvim.autocommands = {
+  {
+    { "BufEnter", "BufWinEnter" },
+    {
+      group = "lvim_user",
+      pattern = { "*.lua", "*.cpp", "*.hpp", "*.c", "*.h" },
+      command = "setlocal ts=4 sw=4",
+    }
+  },
+}

@@ -1,6 +1,9 @@
 [commit]
 	gpgsign = true
 
+[gpg]
+  format = ssh
+
 [color]
 	ui = auto
 
@@ -10,3 +13,9 @@
 	lp = log -p
 	p = push
 	c = commit -S -m
+[user]
+	signingKey = 
+	name = Raphael O.
+	email = raphael.ob@protonmail.com
+[safe]
+	directory = /usr/local/poudriere/ports/default
