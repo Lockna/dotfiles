@@ -1,8 +1,14 @@
 [commit]
 	gpgsign = true
+	template = ~/.gitmessage
 
 [color]
 	ui = auto
+
+[core]
+	pager = less
+	ignorecase = false
+	editor = vim
 
 [alias]
 	st = status
@@ -10,3 +16,13 @@
 	lp = log -p
 	p = push
 	c = commit -S -m
+
+[user]
+	email = raphael.ob@protonmail.com
+	name = Raphael O.
+
+[pull]
+	rebase = true
+	
+[gpg]
+	format = ssh

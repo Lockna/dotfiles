@@ -6,6 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export "PATH=$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
+export "PATH=$HOME/.local/bin:$PATH"
 
 # ZSH configuration file.
 
@@ -105,6 +106,10 @@ plugins=(
   gpg-agent
   safe-paste
   virtualenv
+  zsh-autosuggestions
+  zsh-completions
+  zsh-syntax-highlighting
+  ssh-agent
 )
 
 setopt HIST_IGNORE_SPACE

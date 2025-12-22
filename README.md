@@ -4,7 +4,7 @@ These are my personal dotfiles to keep them archived in case I screw up my syste
 ## Software
 
 ### Distro
-- [FreeBSD](https://www.freebsd.org/)
+- [Arch Linux](https://archlinux.org/)
 
 ### Shell
 - [zsh](https://github.com/zsh-users/zsh) with [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)

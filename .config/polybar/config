@@ -122,7 +122,7 @@ module-margin-right = 2
 
 modules-left = i3
 modules-center =
-modules-right = fs_usage internet_connection mem_usage cpu_temperature cpu_usage
+modules-right = filesystem memory cpu
 
 ; Modules
 
@@ -140,30 +140,16 @@ type = internal/xwindow
 format-foreground = ${colors.primary}
 label = %title:0:30:...%
 
-[module/fs_usage]
-type = custom/script
-exec = sh ~/.config/polybar/scripts/diskuse.sh
-interval = 600
+[module/filesystem]
+type = internal/fs
+interval = 25
 
-[module/mem_usage]
-type = custom/script
-exec = sh ~/.config/polybar/scripts/ramuse.sh
-interval = 1
+mount-0 = /
 
-[module/cpu_usage]
-type = custom/script
-exec = sh ~/.config/polybar/scripts/cpuusage.sh
-interval = 10
-
-[module/cpu_temperature]
-type = custom/script
-exec = sh ~/.config/polybar/scripts/cputemp.sh
-interval = 1
-
-[module/internet_connection]
-type = custom/script
-exec = sh ~/.config/polybar/scripts/connection.sh
-interval = 5
+label-mounted =  HD %mountpoint% %percentage_used%% of %total%
+label-mounted-foreground = ${colors.primary}
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.primary}
 
 [module/i3]
 type = internal/i3
@@ -206,9 +192,27 @@ label-urgent = %name%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " CPU "
+format-prefix-foreground = ${colors.primary}
+format-underline =
+label = %percentage:2%%
+label-foreground = ${colors.primary}
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " RAM "
+format-prefix-foreground = ${colors.primary}
+format-underline =
+label = %percentage_used%%
+label-foreground = ${colors.primary}
+
 [module/wlan]
 type = internal/network
-interface = wlp2s0f0u8
+interface = wlp2s0f0u4
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
