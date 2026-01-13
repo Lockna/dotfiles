@@ -23,6 +23,7 @@ alias ytdl='ytd --add-metadata -ic -f best'
 alias yta='ytdl -x -f bestaudio/best'
 
 alias lock='i3lock-fancy'
+alias lvim='/home/obr/.local/bin/lvim'
 
 # Set the name of the theme to load.
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -98,7 +99,6 @@ plugins=(
   colorize
   copyfile
   dotenv
-  emacs
   emoji
   git
   gitfast

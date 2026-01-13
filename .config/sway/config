@@ -3,11 +3,16 @@
 font pango:Monospace Regular 14
 
 # Set mod key.
-set $mod Mod1
-set $sup Mod4
+# Mod4 -> command Key
+set $mod Mod4
+# Mod1 -> option key
+set $sup Mod1
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+input "type:keyboard" xkb_options caps:escape
+input "type:keyobard" xkb_options ctrl:swap_lwin_lctl
 
 # start a terminal
 #bindsym $mod+Return exec st
@@ -184,16 +189,14 @@ exec_always --no-startup-id timedatectl
 # Set Monitors
 # exec_always --no-startup-id xrandr --output HDMI2 --auto --output eDP1 --auto --left-of HDMI2
 # exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --output HDMI-0 --auto --left-of DP-0
-exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --output DP-2 --mode 2560x1440 --primary -r 170 --right-of DP-0
+# exec_always --no-startup-id xrandr --output DP-0 --mode 2560x1440 -r 144 --output DP-2 --mode 2560x1440 --primary -r 170 --right-of DP-0
 
 # Compositor
-exec_always --no-startup-id picom -bcf
+#exec_always --no-startup-id picom -bcf
 
-# Launch polybar
-exec_always --no-startup-id bash ~/.config/polybar/launch.sh 
 
 # Set Keyboardlayout
-exec_always --no-startup-id setxkbmap eu && xmodmap ~/.Xmodmap
+# exec_always --no-startup-id setxkbmap eu && xmodmap ~/.Xmodmap
 
 # Start Music Daemon
 # exec mpd > /dev/null 
@@ -202,7 +205,12 @@ exec_always --no-startup-id setxkbmap eu && xmodmap ~/.Xmodmap
 exec_always --no-startup-id nm-applet
 
 # Notification service
-exec_always --no-startup-id dunst & disown
+#exec_always --no-startup-id dunst & disown
+
+exec wl-paste -t text --watch clipman store --no-persist
 
 # Load wallpaper.
-exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg --bg-fill ~/.config/.wallpaper.png 
+#exec_always --no-startup-id feh --bg-fill ~/.config/wallpaper.jpg --bg-fill ~/.config/.wallpaper.png 
+exec_always --no-startup-id swaybg -m fill -i ~/.config/wallpaper.jpg & disown
+exec_always --no-startup-id waybar
+exec_always --no-startup-id 'killall -q waybar; waybar'

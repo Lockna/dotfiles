@@ -10,3 +10,10 @@
 	lp = log -p
 	p = push
 	c = commit -S -m
+[user]
+	email = raphael.ob@protonmail.com
+	name = Raphael O.
+  signingkey = /home/obr/.ssh/id_ed25519.pub
+
+[gpg]
+	format = ssh
